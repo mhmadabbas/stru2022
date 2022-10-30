@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "145441323764",
+    "project_id": "bridge-2305a",
+    "storage_bucket": "bridge-2305a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145441323764:android:99c23fd6ba4cedbe737ca1",
+        "android_client_info": {
+          "package_name": "com.example.stru2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145441323764-dh7uqdmnn2nv3631v1m5vs96tedaki3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLZm0GBZVLFAxRp3DM3pyWkp9GcM8ZZ-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145441323764-dh7uqdmnn2nv3631v1m5vs96tedaki3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145441323764:android:78d1f7f3632ae99a737ca1",
+        "android_client_info": {
+          "package_name": "com.studyinrussia.app.studyinrussia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145441323764-n6ijv8kpqm8mp9d630oedp7h4leuqnom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studyinrussia.app.studyinrussia",
+            "certificate_hash": "276a693c04abcd584467e17c39e177ff65feacb8"
+          }
+        },
+        {
+          "client_id": "145441323764-dh7uqdmnn2nv3631v1m5vs96tedaki3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLZm0GBZVLFAxRp3DM3pyWkp9GcM8ZZ-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145441323764-dh7uqdmnn2nv3631v1m5vs96tedaki3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

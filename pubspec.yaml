@@ -1,0 +1,185 @@
+name: stru2022
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.4+4
+  http: ^0.13.4
+  shared_preferences: ^2.0.9
+  firebase_core: ^1.10.6
+  firebase_messaging: ^11.2.4
+  firebase_auth: ^3.3.4
+  awesome_dialog: ^2.1.1
+  flutter_local_notifications: ^9.1.4
+  google_sign_in: ^5.2.1
+  easy_localization: ^3.0.0
+  pull_to_refresh: ^2.0.0
+  flutter_html: ^2.2.1
+  cached_network_image: ^3.2.0
+  file_picker: ^4.2.7
+  rflutter_alert: ^2.0.4
+  flutter_svg: ^0.23.0+1
+  carousel_slider: ^4.0.0
+  vimeo_player_flutter: ^0.0.3+1
+  qr_flutter: ^4.0.0
+  font_awesome_flutter: ^9.2.0
+  intl_phone_field: ^3.1.0
+  datetime_picker_formfield: ^2.0.0
+  auto_size_text: ^3.0.0
+  connectivity_plus: ^2.3.4
+  kommunicate_flutter: ^1.4.7
+
+
+
+
+  url_launcher: ^6.0.18
+  flutter_native_splash: ^2.1.6
+  flutter_launcher_icons: ^0.9.3
+  intl: ^0.17.0
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/22images/Appicon.png"
+
+flutter_native_splash:
+  background_image: assets/22images/es.png
+  image: assets/22images/hl.png
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/translations/en.json
+    - assets/translations/ar.json
+    - assets/translations/ru.json
+    - assets/screens/login/login.png
+    - assets/screens/login/alerttest.jpg
+    - assets/screens/login/alerttest2.png
+    - assets/svgicon/Application.svg
+    - assets/svgicon/Favorites.svg
+    - assets/svgicon/Live.svg
+    - assets/svgicon/Showmore.svg
+    - assets/svgicon/university.svg
+    - assets/svgicon/changlang.svg
+    - assets/svgicon/aboutus.svg
+    - assets/svgicon/broadcast.svg
+    - assets/svgicon/chatwithteam.svg
+    - assets/svgicon/contactus.svg
+    - assets/svgicon/findcourse.svg
+    - assets/svgicon/findun.svg
+    - assets/svgicon/forum.svg
+    - assets/svgicon/home.svg
+    - assets/svgicon/news.svg
+    - assets/svgicon/notfication.svg
+    - assets/svgicon/profile.svg
+    - assets/svgicon/termofuse.svg
+    - assets/svgicon/theme.svg
+    - assets/screens/simatexlogo.png
+    - assets/svgicon/ringicon.svg
+    - assets/svgicon/simalogo.svg
+    - assets/screens/empty.png
+    - assets/22images/logo22.png
+    - assets/22images/w1w.svg
+    - assets/22images/w2.svg
+    - assets/22images/w3.svg
+    - assets/22images/w4.svg
+    - assets/22images/splash.png
+    - assets/22images/es.png
+    - assets/22images/hl.png
+    - assets/svgicon/chatwithoutcover.svg
+    - assets/svgicon/chatpngw.png
+    - assets/svgicon/chatlastsvg.svg
+    - assets/new_svg/about.svg
+    - assets/new_svg/application.svg
+    - assets/new_svg/broadcast.svg
+    - assets/new_svg/chatwithteam.svg
+    - assets/new_svg/contact.svg
+    - assets/new_svg/favorrites.svg
+    - assets/new_svg/forum.svg
+    - assets/new_svg/home.svg
+    - assets/new_svg/moon.svg
+    - assets/new_svg/news.svg
+    - assets/new_svg/notification.svg
+    - assets/new_svg/open-book.svg
+    - assets/new_svg/profile.svg
+    - assets/new_svg/terms.svg
+    - assets/new_svg/theme.svg
+    - assets/new_svg/title.svg
+    - assets/new_svg/unhat.svg
+    - assets/22images/home/home.png
+    - assets/22images/home/blackcard.png
+    - assets/22images/home/chooseprogram.png
+    - assets/22images/home/contactus.png
+    - assets/22images/home/forum.png
+    - assets/22images/home/podcast.png
+    - assets/22images/scholar/arrow.png
+    - assets/22images/scholar/arrow1.png
+    - assets/22images/scholar/arrow2.png
+    - assets/22images/scholar/icondegree.svg
+    - assets/22images/scholar/iconcourse.svg
+    - assets/22images/scholar/iconun.svg
+    - assets/22images/forum/yourposts2.png
+    - assets/22images/forum/allpostsicon.svg
+    - assets/22images/forum/yourpostsicon.svg
+    - assets/22images/roundlogo.png
+    - assets/22images/rlogo.png
+    - assets/22images/Appicon.png
+    - assets/22images/eflag.png
+    - assets/22images/ruflag.png
+    - assets/22images/arflag.png
+    - assets/22images/consultation.png
+    - assets/22images/msuccess.png
+  fonts:
+    - family: KumbhSans
+      fonts:
+        - asset: assets/font/KumbhSans-Medium.ttf
+
