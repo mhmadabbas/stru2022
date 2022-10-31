@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:easy_localization/src/public_ext.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -10,7 +9,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'Pages/auth/Siginup.dart';
 import 'Pages/home.dart';
 import 'Pages/introduction/wellcome.dart';
 import 'forthemes/config.dart';
@@ -92,33 +90,9 @@ Future  autoLogIn() async{
 bool isoffline = true;
 StreamSubscription? connection;
 
-// mobb() async{
-//   connection = Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
-//     // whenevery connection status is changed.
-//     if(result == ConnectivityResult.none){
-//       //there is no any connection
-//
-//         isoffline = true;
-//
-//
-//
-//     }else if(result == ConnectivityResult.mobile || result == ConnectivityResult.wifi ){
-//       //connection is mobile data network
-//       //connection is from wifi
-//
-//         isoffline = false;
-//
-//     }
-//
-//   });
-// }
-//
+
 void main() async {
-//
 
-//await mobb();
-
-//
 
 
   WidgetsFlutterBinding.ensureInitialized();
@@ -199,8 +173,7 @@ class _MyAppState extends State<MyApp> {
 
        primarySwatch:Palette.kToBlue,
         primaryColor:Colors.white,
-       // primarySwatch:createMaterialColor(Color(0xFF174378)),
-        // primaryColor: Colors.white,
+
          textTheme:
 
         TextTheme(
@@ -253,12 +226,11 @@ class _MyAppState extends State<MyApp> {
       ),
       themeMode: currenttheme.currenttheme(),
 
-//    home:(loginstate)?newlandingpage() : LoginPage(),
+
       home:
 
       (loginstate)?HomeLand():wellcomepage(),
 
-    //  (isoffline)?signup22():((loginstate)?HomeLand():wellcomepage()),
     );
   }
 }
