@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:connectivity_plus/connectivity_plus.dart';
+//import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_svg/svg.dart';
@@ -68,22 +68,23 @@ class _HomeLandState extends State<HomeLand> {
 
     generate();
 
-    connection = Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
-      // whenevery connection status is changed.
-      if(result == ConnectivityResult.none){
-        //there is no any connection
-        setState(() {
-          isoffline = true;
-        });
-      }else if(result == ConnectivityResult.mobile || result == ConnectivityResult.wifi ){
-        //connection is mobile data network
-        //connection is from wifi
-        setState(() {
-          isoffline = false;
-        });
-      }
-
-    });
+    // connection = Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
+    //   // whenevery connection status is changed.
+    //   if(result == ConnectivityResult.none){
+    //     //there is no any connection
+    //     setState(() {
+    //       isoffline = true;
+    //     });
+    //   }else if(result == ConnectivityResult.mobile || result == ConnectivityResult.wifi ){
+    //     //connection is mobile data network
+    //     //connection is from wifi
+    //     setState(() {
+    //       isoffline = false;
+    //     });
+    //   }
+    //
+    // });
+    isoffline = false;
     super.initState();
   }
 
